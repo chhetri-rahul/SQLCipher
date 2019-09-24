@@ -67,6 +67,9 @@ extern "C" {
 # define SQLITE_SYSAPI
 #endif
 
+#ifndef SQLITE_HAS_CODEC
+# define SQLITE_HAS_CODEC
+#endif
 /*
 ** These no-op macros are used in front of interfaces to mark those
 ** interfaces as either deprecated or experimental.  New applications
