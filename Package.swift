@@ -30,7 +30,7 @@ let package = Package(
                 .define("NDEBUG", to: "1")
             ],
             swiftSettings: [
-                .define("SQLITE_HAS_CODEC=1"),
+                .define("SQLITE_HAS_CODEC"),
             ]
             ,linkerSettings: [
                 .linkedFramework("Foundation"),
